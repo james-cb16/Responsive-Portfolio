@@ -18,6 +18,7 @@ body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    clear: both;
 }
 
 p {
@@ -169,4 +170,42 @@ h1 {
  ul {
      list-style-type: none;
      margin-left: -40px;
+ }
+
+ @media only screen and (max-width: 640px) {
+    .profileimage {
+        float: none;
+        width: 100%;
+    }
+    #main-header {
+        position: static;
+        width: 688px;
+    }
+    #logo {
+        width: 100%;
+    }
+    #footer {
+        position: fixed;
+    }
+    #footer-p {
+        position: fixed;
+        bottom: 0;
+    }
+    #main-container {
+        height: 190vh;
+        width: 625px;
+    }
+    #main-container-p {
+        height: 220vh;
+        width: 625px;
+    }
+    #main-container-c {
+        width: 625px;
+    }
+    nav {
+        float: left;
+        margin-left: 27%;
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
  }
