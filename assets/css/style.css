@@ -183,6 +183,7 @@ h1 {
     }
     #logo {
         width: 100%;
+        margin: 0px 0px 0px -30px;
     }
     #footer {
         position: fixed;
@@ -249,9 +250,15 @@ h1 {
  }
  @media only screen and (max-width: 980px) {
      #logo {
-         margin-left: 30px;
+         padding-right: 30px;
      }
      nav {
          margin-right: 30px;
+     }
+     #main-container {
+         height: 200vh;
+     }
+     #main-container-p {
+         height: 200vh;
      }
  }
